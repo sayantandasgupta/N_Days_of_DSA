@@ -1,10 +1,11 @@
 /*
+
 Problem Statement: Given a sorted array arr containing n number of elements,
-                   write a function which finds and returns the first and last occurrence of a value val
+                   write a function which finds and returns the count of occurrences of a value val
         Input : n = 9, val = 5
                 arr = [1, 3, 5, 5, 5, 5, 67, 123, 125]
 
-        Output: 2 5
+        Output: 4
 
 Algorithm Used: Binary Search
 Time Complexity: O(log n)
@@ -13,7 +14,7 @@ Time Complexity: O(log n)
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int> firstAndLastOccurrence(vector<int> &arr, int n, int val){
+int countOccurrence(vector<int> &arr, int n, int val){
     int l = 0, r = n-1, mid;
     int first= -1, last = -1;
     vector<int> res;
@@ -42,9 +43,7 @@ vector<int> firstAndLastOccurrence(vector<int> &arr, int n, int val){
             l = mid+1;
     }
 
-    res.push_back(first);
-    res.push_back(last);
-    return res;
+    return last-first+1;
 }
 
 int main(){
@@ -58,8 +57,7 @@ int main(){
         arr.push_back(x);
     }
 
-    vector<int> res = firstAndLastOccurrence(arr, n, val);
+    int res = countOccurrence(arr, n, val);
 
-    for(int i=0;i<2;i++)
-        cout<<res[i]<<" ";
+    cout<<res;
 } 
