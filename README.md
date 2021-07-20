@@ -1,7 +1,14 @@
 ## N_Days_of_DSA
-This repo contains some DSA questions that I have practiced.
+</br>
 
-You can checkout each folder one by one, or you can go directly to each folder using the following links:-
+### Questions solved:-
 
-  - [Day 1](https://github.com/Arka2001/N_Days_of_DSA/tree/main/Day_1)
-  - [Day 2](https://github.com/Arka2001/N_Days_of_DSA/tree/main/Day_2)
+<hr>
+</br>
+
+The following table consists of the problems that I have solved in a particular day.
+
+| Day No. | Questions | Solution |
+| :---: | :---: | :---: |
+| Day 1| <ol><li>[First and Last Occurrences of x in a sorted array](https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1#)</li><li>[Number of occurrences of x in a sorted array](https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1)</li></ol> | [Day 1](https://github.com/Arka2001/N_Days_of_DSA/tree/main/Day_1) |
+| Day 2| <ol><li>[Number of times a sorted array is rotated](https://practice.geeksforgeeks.org/problems/rotation4723/1#)</li></ol> | [Day 2](https://github.com/Arka2001/N_Days_of_DSA/tree/main/Day_2) |
