@@ -1,7 +1,5 @@
-## Interesting DSA Questions
+## Day 1
 </br>
-
-### Day 1
 
 Questions solved :- 
 
