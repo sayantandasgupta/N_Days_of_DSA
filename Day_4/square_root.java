@@ -5,6 +5,8 @@ import java.util.*;
 public class square_root{
     public static int squareRoot(int x){
         int start =1, end = x-1,mid,res=0;
+        if(x==1)
+            res = 1;
         while(start<=end){
             mid = start + (end-start)/2;
             if(mid>x/mid)
